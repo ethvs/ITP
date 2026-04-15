@@ -1,0 +1,146 @@
+# ITP Task Templates Configuration
+# 不同任务类型的默认配置
+
+creative_writing:
+  name: "创意写作"
+  description: "小说、故事、文章等创意内容生成"
+  stages: [T1, T2, T3, T4]
+  quality_focus:
+    - ai_score
+    - fluency
+    - logic_consistency
+  polishing_intensity: "high"
+  checkpoint_frequency: 3
+  default_model: "claude-sonnet"
+  high_complexity_model: "claude-opus"
+  format: "markdown"
+  special_features:
+    - deai_polish
+    - character_tracking
+    - outline_validation
+  min_quality_thresholds:
+    completeness: 0.85
+    ai_score: 0.08
+    fluency: 0.88
+
+code_generation:
+  name: "代码生成"
+  description: "函数、类、模块等代码开发"
+  stages: [T1, T2, T4]
+  quality_focus:
+    - completeness
+    - format_compliance
+    - boundary_coverage
+  polishing_intensity: "medium"
+  checkpoint_frequency: 5
+  default_model: "claude-sonnet"
+  high_complexity_model: "claude-opus"
+  format: "code"
+  special_features:
+    - syntax_validation
+    - error_handling_check
+    - test_generation
+  min_quality_thresholds:
+    completeness: 0.90
+    format_compliance: 0.95
+    boundary_coverage: 0.85
+
+data_analysis:
+  name: "数据分析"
+  description: "数据探索、统计分析、可视化"
+  stages: [T1, T2, T3, T4]
+  quality_focus:
+    - logic_consistency
+    - boundary_coverage
+    - completeness
+  polishing_intensity: "medium"
+  checkpoint_frequency: 4
+  default_model: "claude-sonnet"
+  high_complexity_model: "claude-opus"
+  format: "markdown"
+  special_features:
+    - data_validation
+    - chart_generation
+    - insight_extraction
+  min_quality_thresholds:
+    logic_consistency: 0.92
+    boundary_coverage: 0.80
+
+translation:
+  name: "翻译"
+  description: "文本翻译、本地化"
+  stages: [T1, T2, T4]
+  quality_focus:
+    - fluency
+    - completeness
+  polishing_intensity: "low"
+  checkpoint_frequency: 2
+  default_model: "claude-haiku"
+  high_complexity_model: "claude-sonnet"
+  format: "text"
+  special_features:
+    - language_detection
+    - cultural_adaptation
+  min_quality_thresholds:
+    fluency: 0.85
+    completeness: 0.95
+
+summarization:
+  name: "摘要"
+  description: "文本摘要、要点提炼"
+  stages: [T1, T2, T4]
+  quality_focus:
+    - completeness
+    - fluency
+  polishing_intensity: "low"
+  checkpoint_frequency: 2
+  default_model: "claude-haiku"
+  high_complexity_model: "claude-sonnet"
+  format: "markdown"
+  special_features:
+    - key_point_extraction
+  min_quality_thresholds:
+    completeness: 0.80
+    fluency: 0.85
+
+general:
+  name: "通用任务"
+  description: "未分类的一般任务"
+  stages: [T1, T2, T4]
+  quality_focus:
+    - completeness
+    - fluency
+  polishing_intensity: "low"
+  checkpoint_frequency: 5
+  default_model: "claude-sonnet"
+  high_complexity_model: "claude-opus"
+  format: "text"
+  special_features: []
+  min_quality_thresholds:
+    completeness: 0.85
+    fluency: 0.85
+
+# 预配置的子技能
+sub_skills:
+  novel_generation:
+    base_template: creative_writing
+    additions:
+      stages: [T1, T2, T3, T4]
+      special_features:
+        - chapter_planning
+        - character_arcs
+        - plot_consistency_check
+    min_quality_thresholds:
+      fluency: 0.90
+
+  website_dev:
+    base_template: code_generation
+    additions:
+      stages: [T1, T2, T3, T4]
+      quality_focus:
+        - completeness
+        - format_compliance
+        - boundary_coverage
+    min_quality_thresholds:
+      format_compliance: 0.95
+      boundary_coverage: 0.90

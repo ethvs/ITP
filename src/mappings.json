@@ -1,0 +1,5072 @@
+{
+  "taskCategories": {
+    "creative_writing_novel": {
+      "keywords": [
+        "写小说",
+        "创作小说",
+        "写部小说",
+        "写长篇",
+        "长篇小说",
+        "短篇小说",
+        "写故事",
+        "故事创作",
+        "写书",
+        "网络小说",
+        "玄幻小说",
+        "修真小说",
+        "都市小说",
+        "言情小说",
+        "科幻小说",
+        "网游小说",
+        "穿越小说",
+        "历史小说",
+        "军事小说",
+        "武侠小说",
+        "仙侠小说",
+        "悬疑小说",
+        "恐怖小说",
+        "奇幻小说",
+        "魔幻小说",
+        "同人小说",
+        "文学创作",
+        "长文创作",
+        "连载小说",
+        "网文"
+      ],
+      "skills": [
+        "novel-outline",
+        "character-design",
+        "world-building",
+        "chapter-writing",
+        "plot-development",
+        "dialogue-polish",
+        "ai-tone-removal",
+        "three-act-structure",
+        "pacing-control",
+        "cliffhanger"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write",
+        "read"
+      ],
+      "subtasks": [
+        "outline",
+        "character_design",
+        "world_building",
+        "chapter_draft",
+        "review",
+        "polish"
+      ],
+      "description": "小说创作全流程"
+    },
+    "creative_writing_article": {
+      "keywords": [
+        "写文章",
+        "写文案",
+        "写稿",
+        "撰稿",
+        "稿件",
+        "公众号文章",
+        "推文",
+        "博客文章",
+        "软文",
+        "评论文章",
+        "议论文",
+        "散文",
+        "随笔",
+        "杂文",
+        "说明文",
+        "应用文",
+        "演讲稿",
+        "发言稿",
+        "致辞",
+        "报告文学",
+        "通讯稿",
+        "新闻稿",
+        "媒体稿",
+        "推文写作",
+        "文案创作"
+      ],
+      "skills": [
+        "article-structure",
+        "hook-writing",
+        "content-outline",
+        "draft-writing",
+        "editing",
+        "proofreading",
+        "tone-adjustment",
+        "seo-optimization"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "topic_analysis",
+        "outline",
+        "draft",
+        "edit",
+        "polish"
+      ],
+      "description": "文章文案创作"
+    },
+    "character_design": {
+      "keywords": [
+        "角色设计",
+        "人物设定",
+        "人物小传",
+        "角色背景",
+        "人物简介",
+        "角色档案",
+        "人物关系",
+        "角色性格",
+        "人物形象",
+        "角色成长",
+        "人物动机",
+        "角色冲突",
+        "人物弧光",
+        "角色创建",
+        "人物塑造"
+      ],
+      "skills": [
+        "character-profile",
+        "character-arc",
+        "relationship-map",
+        "motivation-analysis",
+        "personality-trait"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_bitable"
+      ],
+      "subtasks": [
+        "basic_info",
+        "personality",
+        "background",
+        "relationships",
+        "arc"
+      ],
+      "description": "角色设计与人物设定"
+    },
+    "outline_creation": {
+      "keywords": [
+        "大纲",
+        "提纲",
+        "框架",
+        "结构",
+        "章节大纲",
+        "故事大纲",
+        "情节大纲",
+        "剧情大纲",
+        "整体框架",
+        "故事线",
+        "主线",
+        "副线",
+        "多线叙事",
+        "结构搭建",
+        "框架设计"
+      ],
+      "skills": [
+        "three-act-structure",
+        "hero-journey",
+        "save-the-cat",
+        "outline-generator",
+        "plot-twist"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "theme",
+        "structure",
+        "chapters",
+        "plot_points"
+      ],
+      "description": "大纲与结构设计"
+    },
+    "content_polishing": {
+      "keywords": [
+        "润色",
+        "精修",
+        "修改",
+        "打磨",
+        "优化",
+        "提升文笔",
+        "改善表达",
+        "文字润色",
+        "语言优化",
+        "去除 AI 感",
+        "去 AI 味",
+        "人性化",
+        "自然表达",
+        "口语化",
+        "生动表达",
+        "文笔提升"
+      ],
+      "skills": [
+        "ai-tone-removal",
+        "human-like-writing",
+        "style-transfer",
+        "sentence-variety",
+        "show-dont-tell"
+      ],
+      "tools": [
+        "read",
+        "write",
+        "feishu_update_doc"
+      ],
+      "subtasks": [
+        "tone_analysis",
+        "rewrite",
+        "polish",
+        "verify"
+      ],
+      "description": "内容润色与精修"
+    },
+    "content_diagnosis": {
+      "keywords": [
+        "问题诊断",
+        "内容诊断",
+        "文章诊断",
+        "逻辑问题",
+        "情节漏洞",
+        "人物问题",
+        "结构问题",
+        "节奏问题",
+        "对话问题",
+        "内容分析",
+        "质量评估",
+        "优缺点分析",
+        "内容审查"
+      ],
+      "skills": [
+        "content-analyzer",
+        "logic-checker",
+        "pacing-analyzer",
+        "dialogue-evaluator"
+      ],
+      "tools": [
+        "read",
+        "feishu_doc_comments"
+      ],
+      "subtasks": [
+        "analyze",
+        "identify_issues",
+        "suggest_fixes"
+      ],
+      "description": "内容问题诊断"
+    },
+    "three_review": {
+      "keywords": [
+        "三路审阅",
+        "三重审阅",
+        "多重审阅",
+        "交叉审阅",
+        "同行评审",
+        "编辑审阅",
+        "专业审阅",
+        "质量审查",
+        "内容审核"
+      ],
+      "skills": [
+        "developmental-edit",
+        "copy-edit",
+        "proofread",
+        "sensitivity-read"
+      ],
+      "tools": [
+        "feishu_doc_comments",
+        "read"
+      ],
+      "subtasks": [
+        "self_review",
+        "peer_review",
+        "expert_review"
+      ],
+      "description": "三路审阅机制"
+    },
+    "chapter_logic": {
+      "keywords": [
+        "章节逻辑",
+        "情节连贯",
+        "前后呼应",
+        "伏笔",
+        "铺垫",
+        "过渡",
+        "衔接",
+        "逻辑自洽",
+        "情节合理",
+        "连贯性检查"
+      ],
+      "skills": [
+        "continuity-checker",
+        "foreshadowing-tracker",
+        "pacing-analyzer"
+      ],
+      "tools": [
+        "read",
+        "feishu_doc_comments"
+      ],
+      "subtasks": [
+        "check_continuity",
+        "verify_foreshadowing",
+        "analyze_pacing"
+      ],
+      "description": "章节逻辑与连贯性"
+    },
+    "weather_forecast": {
+      "keywords": [
+        "天气",
+        "天气预报",
+        "气温",
+        "下雨",
+        "下雪",
+        "晴天",
+        "多云",
+        "阴天",
+        "刮风",
+        "台风",
+        "暴雨",
+        "大雪",
+        "雾霾",
+        "空气质量",
+        "紫外线",
+        "湿度",
+        "风力",
+        "降雨概率",
+        "降雪概率",
+        "今天天气",
+        "明天天气"
+      ],
+      "skills": [
+        "weather-fetch",
+        "weather-analyze",
+        "alert-check"
+      ],
+      "tools": [
+        "exec"
+      ],
+      "subtasks": [
+        "fetch",
+        "parse",
+        "format",
+        "alert"
+      ],
+      "description": "天气预报查询"
+    },
+    "data_analysis_basic": {
+      "keywords": [
+        "数据分析",
+        "数据统计",
+        "数据整理",
+        "数据汇总",
+        "数据报表",
+        "数据可视化",
+        "图表生成",
+        "柱状图",
+        "折线图",
+        "饼图",
+        "散点图",
+        "热力图",
+        "数据对比",
+        "趋势分析",
+        "同比",
+        "环比",
+        "数据报告",
+        "生成图表",
+        "统计图表",
+        "数据图表"
+      ],
+      "skills": [
+        "data-processor",
+        "chart-generator",
+        "trend-analyzer",
+        "statistic-calculator"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "feishu_bitable"
+      ],
+      "subtasks": [
+        "load_data",
+        "clean",
+        "analyze",
+        "visualize",
+        "report"
+      ],
+      "description": "基础数据分析"
+    },
+    "code_python": {
+      "keywords": [
+        "Python",
+        "python 脚本",
+        "py 代码",
+        "python 程序",
+        "python 函数",
+        "python 类",
+        "django",
+        "flask",
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "scikit-learn",
+        "tensorflow",
+        "pytorch",
+        "python 开发"
+      ],
+      "skills": [
+        "python-coder",
+        "code-review",
+        "debug-helper",
+        "test-generator"
+      ],
+      "tools": [
+        "exec",
+        "write"
+      ],
+      "subtasks": [
+        "understand",
+        "design",
+        "implement",
+        "test",
+        "review"
+      ],
+      "description": "Python 代码开发"
+    },
+    "code_javascript": {
+      "keywords": [
+        "JavaScript",
+        "JS 代码",
+        "前端",
+        "后端",
+        "node.js",
+        "react",
+        "vue",
+        "angular",
+        "小程序",
+        "H5",
+        "网页",
+        "交互",
+        "特效",
+        "js 开发",
+        "web 开发"
+      ],
+      "skills": [
+        "js-coder",
+        "frontend-helper",
+        "debug-helper"
+      ],
+      "tools": [
+        "exec",
+        "write"
+      ],
+      "subtasks": [
+        "understand",
+        "design",
+        "implement",
+        "test"
+      ],
+      "description": "JavaScript 代码开发"
+    },
+    "image_generation_art": {
+      "keywords": [
+        "生成图片",
+        "画图",
+        "绘图",
+        "插画",
+        "原画",
+        "概念图",
+        "角色设计图",
+        "场景设计",
+        "立绘",
+        "壁纸",
+        "头像",
+        "海报",
+        "宣传图",
+        "插画设计",
+        "艺术创作",
+        "数字艺术",
+        "AI 绘画"
+      ],
+      "skills": [
+        "image-generator",
+        "style-transfer",
+        "image-enhancer"
+      ],
+      "tools": [
+        "imagegen"
+      ],
+      "subtasks": [
+        "understand_style",
+        "generate",
+        "enhance"
+      ],
+      "description": "艺术图片生成"
+    },
+    "translation_zh_en": {
+      "keywords": [
+        "翻译",
+        "中英翻译",
+        "英中翻译",
+        "翻译英文",
+        "翻译中文",
+        "英文翻译",
+        "中文翻译",
+        "译成英文",
+        "译成中文",
+        "口译",
+        "笔译",
+        "本地化",
+        "多语言"
+      ],
+      "skills": [
+        "translator",
+        "localization",
+        "cultural-adapter"
+      ],
+      "tools": [
+        "write",
+        "read"
+      ],
+      "subtasks": [
+        "understand_source",
+        "translate",
+        "cultural_adapt",
+        "proofread"
+      ],
+      "description": "中英文翻译"
+    },
+    "video_editing": {
+      "keywords": [
+        "视频",
+        "剪辑",
+        "剪视频",
+        "视频制作",
+        "视频编辑",
+        "短视频",
+        "vlog",
+        "宣传片",
+        "预告片",
+        "片头",
+        "片尾",
+        "字幕",
+        "特效",
+        "转场",
+        "配音",
+        "配乐",
+        "视频处理"
+      ],
+      "skills": [
+        "video-editor",
+        "subtitle-generator",
+        "audio-mixer"
+      ],
+      "tools": [
+        "exec",
+        "video-frames"
+      ],
+      "subtasks": [
+        "analyze",
+        "cut",
+        "add_effects",
+        "add_audio",
+        "export"
+      ],
+      "description": "视频剪辑与制作"
+    },
+    "audio_processing": {
+      "keywords": [
+        "音频",
+        "录音",
+        "配音",
+        "音乐",
+        "配乐",
+        "音效",
+        "语音",
+        "播客",
+        "有声书",
+        "广播剧",
+        "降噪",
+        "混音",
+        "剪辑音频",
+        "音乐制作"
+      ],
+      "skills": [
+        "audio-editor",
+        "noise-reducer",
+        "tts-generator"
+      ],
+      "tools": [
+        "tts",
+        "exec"
+      ],
+      "subtasks": [
+        "load",
+        "process",
+        "enhance",
+        "export"
+      ],
+      "description": "音频处理"
+    },
+    "research_academic": {
+      "keywords": [
+        "研究",
+        "学术",
+        "论文",
+        "文献",
+        "调研",
+        "调查报告",
+        "研究报告",
+        "学术研究",
+        "科研",
+        "课题",
+        "论文写作",
+        "文献综述",
+        "学术论文"
+      ],
+      "skills": [
+        "research-planner",
+        "literature-review",
+        "citation-helper",
+        "academic-writer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "exec"
+      ],
+      "subtasks": [
+        "define_topic",
+        "literature_search",
+        "analyze",
+        "write",
+        "cite"
+      ],
+      "description": "学术研究与论文"
+    },
+    "marketing_plan": {
+      "keywords": [
+        "营销",
+        "营销方案",
+        "推广",
+        "推广方案",
+        "品牌",
+        "品牌策划",
+        "市场",
+        "市场方案",
+        "广告",
+        "广告策划",
+        "营销策划",
+        "活动策划",
+        "公关",
+        "公关方案",
+        "营销策略"
+      ],
+      "skills": [
+        "marketing-strategist",
+        "brand-builder",
+        "campaign-planner"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "analyze_market",
+        "define_target",
+        "strategy",
+        "plan",
+        "budget"
+      ],
+      "description": "营销策划与推广"
+    },
+    "business_plan": {
+      "keywords": [
+        "商业计划",
+        "商业计划书",
+        "创业计划",
+        "项目计划",
+        "投资计划",
+        "融资计划",
+        "项目书",
+        "路演",
+        "投资人",
+        "商业模式",
+        "盈利模式",
+        "创业方案"
+      ],
+      "skills": [
+        "business-analyst",
+        "financial-modeler",
+        "pitch-deck-creator"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "executive_summary",
+        "market_analysis",
+        "business_model",
+        "financials",
+        "team"
+      ],
+      "description": "商业计划书"
+    },
+    "legal_consult": {
+      "keywords": [
+        "法律",
+        "法律咨询",
+        "律师",
+        "合同",
+        "协议",
+        "法务",
+        "诉讼",
+        "仲裁",
+        "维权",
+        "法律风险",
+        "法律意见",
+        "法律分析",
+        "法律建议"
+      ],
+      "skills": [
+        "legal-analyzer",
+        "contract-reviewer",
+        "risk-assessor"
+      ],
+      "tools": [
+        "read",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "understand_issue",
+        "analyze_law",
+        "assess_risk",
+        "suggest_action"
+      ],
+      "description": "法律咨询与分析"
+    },
+    "health_advice": {
+      "keywords": [
+        "健康",
+        "医疗",
+        "疾病",
+        "症状",
+        "诊断",
+        "治疗",
+        "用药",
+        "体检",
+        "养生",
+        "保健",
+        "营养",
+        "饮食建议",
+        "运动建议",
+        "减肥",
+        "健身",
+        "健康咨询"
+      ],
+      "skills": [
+        "health-advisor",
+        "nutrition-analyzer",
+        "fitness-planner"
+      ],
+      "tools": [
+        "read",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "understand_symptoms",
+        "analyze",
+        "suggest",
+        "warn_if_needed"
+      ],
+      "description": "健康咨询与建议"
+    },
+    "travel_plan": {
+      "keywords": [
+        "旅游",
+        "旅行",
+        "出游",
+        "行程",
+        "路线",
+        "攻略",
+        "自由行",
+        "自驾游",
+        "背包客",
+        "景点",
+        "酒店",
+        "机票",
+        "签证",
+        "旅游计划",
+        "出行计划"
+      ],
+      "skills": [
+        "travel-planner",
+        "budget-calculator",
+        "route-optimizer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet",
+        "exec"
+      ],
+      "subtasks": [
+        "destination_analysis",
+        "route_plan",
+        "budget",
+        "booking_tips"
+      ],
+      "description": "旅行规划"
+    },
+    "learning_plan": {
+      "keywords": [
+        "学习",
+        "学习计划",
+        "课程",
+        "培训",
+        "考试",
+        "备考",
+        "复习",
+        "知识点",
+        "学习方法",
+        "学习路径",
+        "技能提升",
+        "自我提升",
+        "学习规划"
+      ],
+      "skills": [
+        "learning-planner",
+        "knowledge-mapper",
+        "progress-tracker"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_task_task"
+      ],
+      "subtasks": [
+        "assess_level",
+        "set_goals",
+        "plan_schedule",
+        "track_progress"
+      ],
+      "description": "学习规划"
+    },
+    "career_advice": {
+      "keywords": [
+        "职业",
+        "职业建议",
+        "求职",
+        "找工作",
+        "面试",
+        "简历",
+        "职业规划",
+        "跳槽",
+        "升职",
+        "加薪",
+        "职场",
+        "职场建议",
+        "职业发展"
+      ],
+      "skills": [
+        "career-counselor",
+        "resume-reviewer",
+        "interview-coach"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "assess_situation",
+        "analyze_options",
+        "suggest_path",
+        "action_plan"
+      ],
+      "description": "职业建议与规划"
+    },
+    "financial_planning": {
+      "keywords": [
+        "理财",
+        "投资",
+        "股票",
+        "基金",
+        "债券",
+        "保险",
+        "存款",
+        "贷款",
+        "房贷",
+        "车贷",
+        "财务规划",
+        "资产配置",
+        "风险控制",
+        "理财建议"
+      ],
+      "skills": [
+        "financial-analyst",
+        "risk-assessor",
+        "portfolio-optimizer"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "analyze_financials",
+        "assess_risk",
+        "suggest_allocation",
+        "monitor"
+      ],
+      "description": "理财规划"
+    },
+    "relationship_advice": {
+      "keywords": [
+        "情感",
+        "恋爱",
+        "婚姻",
+        "家庭",
+        "亲子",
+        "人际关系",
+        "沟通",
+        "矛盾",
+        "分手",
+        "复合",
+        "相亲",
+        "婚恋",
+        "情感咨询"
+      ],
+      "skills": [
+        "relationship-counselor",
+        "communication-coach",
+        "conflict-mediator"
+      ],
+      "tools": [
+        "read",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "understand_situation",
+        "analyze_dynamics",
+        "suggest_communication",
+        "action_tips"
+      ],
+      "description": "情感与关系建议"
+    },
+    "parenting_guide": {
+      "keywords": [
+        "育儿",
+        "亲子",
+        "教育",
+        "儿童",
+        "孩子",
+        "婴儿",
+        "幼儿",
+        "少儿",
+        "青少年",
+        "成长",
+        "早教",
+        "启蒙",
+        "亲子关系",
+        "育儿经验"
+      ],
+      "skills": [
+        "parenting-advisor",
+        "child-psychology",
+        "education-planner"
+      ],
+      "tools": [
+        "read",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "understand_age",
+        "analyze_issue",
+        "suggest_method",
+        "provide_resources"
+      ],
+      "description": "育儿指导"
+    },
+    "cooking_recipe": {
+      "keywords": [
+        "菜谱",
+        "做菜",
+        "烹饪",
+        "美食",
+        "食谱",
+        "做法",
+        "怎么煮",
+        "怎么做",
+        "下厨",
+        "烘焙",
+        "甜点",
+        "汤",
+        "炒菜",
+        "主食",
+        "美食制作"
+      ],
+      "skills": [
+        "recipe-generator",
+        "cooking-instructor",
+        "nutrition-analyzer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "exec"
+      ],
+      "subtasks": [
+        "understand_ingredients",
+        "generate_recipe",
+        "provide_tips"
+      ],
+      "description": "菜谱与烹饪指导"
+    },
+    "fashion_style": {
+      "keywords": [
+        "穿搭",
+        "时尚",
+        "服装",
+        "搭配",
+        "造型",
+        "时装",
+        "服饰",
+        "潮流",
+        "风格",
+        "穿衣",
+        "打扮",
+        "配色",
+        "时尚建议"
+      ],
+      "skills": [
+        "fashion-stylist",
+        "color-analyzer",
+        "body-type-advisor"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "imagegen"
+      ],
+      "subtasks": [
+        "analyze_occasion",
+        "suggest_style",
+        "provide_options"
+      ],
+      "description": "时尚穿搭建议"
+    },
+    "interior_design": {
+      "keywords": [
+        "装修",
+        "室内设计",
+        "家装",
+        "软装",
+        "硬装",
+        "家具",
+        "布置",
+        "空间",
+        "风格",
+        "配色",
+        "家居",
+        "装修设计"
+      ],
+      "skills": [
+        "interior-designer",
+        "space-planner",
+        "style-advisor"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "imagegen"
+      ],
+      "subtasks": [
+        "analyze_space",
+        "suggest_style",
+        "plan_layout",
+        "select_items"
+      ],
+      "description": "室内设计建议"
+    },
+    "event_planning": {
+      "keywords": [
+        "活动",
+        "策划",
+        "活动规划",
+        "会议",
+        "聚会",
+        "庆典",
+        "婚礼",
+        "生日",
+        "年会",
+        "发布会",
+        "展览",
+        "演出",
+        "活动组织"
+      ],
+      "skills": [
+        "event-planner",
+        "budget-manager",
+        "timeline-creator"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_task_task",
+        "feishu_calendar_event"
+      ],
+      "subtasks": [
+        "define_scope",
+        "plan_logistics",
+        "create_timeline",
+        "coordinate"
+      ],
+      "description": "活动策划与组织"
+    },
+    "social_media": {
+      "keywords": [
+        "社交媒体",
+        "公众号",
+        "微博",
+        "抖音",
+        "小红书",
+        "B 站",
+        "知乎",
+        "朋友圈",
+        "文案",
+        "推文",
+        "短视频",
+        "直播",
+        "自媒体运营"
+      ],
+      "skills": [
+        "social-media-manager",
+        "content-creator",
+        "engagement-optimizer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "analyze_platform",
+        "create_content",
+        "optimize_posting",
+        "engage"
+      ],
+      "description": "社交媒体运营"
+    },
+    "seo_optimization": {
+      "keywords": [
+        "SEO",
+        "搜索引擎优化",
+        "关键词",
+        "排名",
+        "收录",
+        "权重",
+        "外链",
+        "内链",
+        "标题优化",
+        "描述优化",
+        "网站优化"
+      ],
+      "skills": [
+        "seo-analyzer",
+        "keyword-researcher",
+        "content-optimizer"
+      ],
+      "tools": [
+        "exec",
+        "feishu_update_doc"
+      ],
+      "subtasks": [
+        "keyword_research",
+        "analyze_competition",
+        "optimize_content",
+        "track_ranking"
+      ],
+      "description": "SEO 优化"
+    },
+    "user_research": {
+      "keywords": [
+        "用户调研",
+        "用户研究",
+        "问卷",
+        "访谈",
+        "焦点小组",
+        "用户画像",
+        "用户行为",
+        "用户体验",
+        "需求分析",
+        "用户调查"
+      ],
+      "skills": [
+        "researcher",
+        "survey-designer",
+        "interviewer",
+        "data-analyzer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_bitable"
+      ],
+      "subtasks": [
+        "define_objectives",
+        "design_method",
+        "collect_data",
+        "analyze",
+        "report"
+      ],
+      "description": "用户调研"
+    },
+    "product_design": {
+      "keywords": [
+        "产品设计",
+        "工业设计",
+        "外观设计",
+        "功能设计",
+        "交互设计",
+        "用户体验",
+        "原型",
+        "草图",
+        "建模",
+        "产品设计"
+      ],
+      "skills": [
+        "product-designer",
+        "ux-designer",
+        "prototype-creator"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "imagegen"
+      ],
+      "subtasks": [
+        "understand_user",
+        "ideate",
+        "prototype",
+        "test",
+        "iterate"
+      ],
+      "description": "产品设计"
+    },
+    "project_management": {
+      "keywords": [
+        "项目管理",
+        "项目计划",
+        "进度管理",
+        "风险管理",
+        "资源管理",
+        "团队协作",
+        "敏捷",
+        "Scrum",
+        "看板",
+        "甘特图",
+        "项目协调"
+      ],
+      "skills": [
+        "project-manager",
+        "risk-analyzer",
+        "timeline-optimizer"
+      ],
+      "tools": [
+        "feishu_task_task",
+        "feishu_bitable",
+        "feishu_calendar_event"
+      ],
+      "subtasks": [
+        "define_scope",
+        "plan_schedule",
+        "assign_tasks",
+        "track_progress",
+        "manage_risks"
+      ],
+      "description": "项目管理"
+    },
+    "meeting_management": {
+      "keywords": [
+        "会议",
+        "开会",
+        "会议纪要",
+        "会议记录",
+        "议程",
+        "参会人员",
+        "会议安排",
+        "视频会议",
+        "线上会议",
+        "会议组织"
+      ],
+      "skills": [
+        "meeting-scheduler",
+        "minute-taker",
+        "action-item-tracker"
+      ],
+      "tools": [
+        "feishu_calendar_event",
+        "feishu_create_doc",
+        "feishu_task_task"
+      ],
+      "subtasks": [
+        "schedule",
+        "prepare_agenda",
+        "take_minutes",
+        "track_actions"
+      ],
+      "description": "会议管理"
+    },
+    "email_writing": {
+      "keywords": [
+        "邮件",
+        "Email",
+        "电子邮件",
+        "写邮件",
+        "回复邮件",
+        "商务邮件",
+        "正式邮件",
+        "邀请邮件",
+        "感谢信",
+        "道歉信",
+        "邮件撰写"
+      ],
+      "skills": [
+        "email-writer",
+        "tone-adjuster",
+        "format-checker"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "understand_purpose",
+        "draft",
+        "review_tone",
+        "format"
+      ],
+      "description": "邮件撰写"
+    },
+    "resume_writing": {
+      "keywords": [
+        "简历",
+        "求职简历",
+        "简历优化",
+        "简历修改",
+        "CV",
+        "履历",
+        "工作经历",
+        "项目经历",
+        "自我评价",
+        "简历制作"
+      ],
+      "skills": [
+        "resume-writer",
+        "achievement-quantifier",
+        "ats-optimizer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "collect_info",
+        "structure",
+        "write",
+        "optimize",
+        "format"
+      ],
+      "description": "简历撰写与优化"
+    },
+    "interview_prep": {
+      "keywords": [
+        "面试",
+        "面试准备",
+        "面试技巧",
+        "面试问题",
+        "自我介绍",
+        "面试模拟",
+        "面试辅导",
+        "群面",
+        "终面",
+        "面试培训"
+      ],
+      "skills": [
+        "interview-coach",
+        "question-predictor",
+        "answer-polisher"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "research_company",
+        "prepare_answers",
+        "mock_interview",
+        "feedback"
+      ],
+      "description": "面试准备"
+    },
+    "time_management": {
+      "keywords": [
+        "时间管理",
+        "效率",
+        "拖延",
+        "时间规划",
+        "日程安排",
+        "优先级",
+        "番茄工作法",
+        "时间块",
+        "任务管理",
+        "时间规划"
+      ],
+      "skills": [
+        "time-coach",
+        "priority-sorter",
+        "habit-builder"
+      ],
+      "tools": [
+        "feishu_task_task",
+        "feishu_calendar_event"
+      ],
+      "subtasks": [
+        "analyze_current",
+        "set_priorities",
+        "create_schedule",
+        "track"
+      ],
+      "description": "时间管理"
+    },
+    "habit_building": {
+      "keywords": [
+        "习惯",
+        "习惯养成",
+        "自律",
+        "坚持",
+        "打卡",
+        "习惯追踪",
+        "行为改变",
+        "习惯培养",
+        "习惯建立"
+      ],
+      "skills": [
+        "habit-coach",
+        "motivation-booster",
+        "relapse-preventer"
+      ],
+      "tools": [
+        "feishu_task_task",
+        "feishu_calendar_event"
+      ],
+      "subtasks": [
+        "define_habit",
+        "create_plan",
+        "track_progress",
+        "adjust"
+      ],
+      "description": "习惯养成"
+    },
+    "news_summary": {
+      "keywords": [
+        "新闻",
+        "时事",
+        "热点",
+        "头条",
+        "最新资讯",
+        "新闻动态",
+        "新闻摘要",
+        "要闻",
+        "快讯",
+        "新闻资讯"
+      ],
+      "skills": [
+        "news-curator",
+        "summary-generator",
+        "fact-checker"
+      ],
+      "tools": [
+        "exec",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "collect_news",
+        "verify",
+        "summarize",
+        "categorize"
+      ],
+      "description": "新闻摘要"
+    },
+    "book_summary": {
+      "keywords": [
+        "读书",
+        "书摘",
+        "读书笔记",
+        "书评",
+        "读后感",
+        "书籍推荐",
+        "书单",
+        "阅读",
+        "名著",
+        "书籍总结"
+      ],
+      "skills": [
+        "book-analyzer",
+        "key-point-extractor",
+        "recommendation-engine"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "understand_book",
+        "extract_key_points",
+        "summarize",
+        "reflect"
+      ],
+      "description": "读书笔记与书评"
+    },
+    "movie_analysis": {
+      "keywords": [
+        "电影",
+        "影评",
+        "影视",
+        "剧情",
+        "导演",
+        "演员",
+        "票房",
+        "评分",
+        "推荐电影",
+        "剧评",
+        "电影分析"
+      ],
+      "skills": [
+        "film-critic",
+        "plot-analyzer",
+        "recommendation-engine"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "exec"
+      ],
+      "subtasks": [
+        "analyze_plot",
+        "evaluate_elements",
+        "compare",
+        "recommend"
+      ],
+      "description": "电影分析与影评"
+    },
+    "game_strategy": {
+      "keywords": [
+        "游戏",
+        "攻略",
+        "游戏技巧",
+        "通关",
+        "装备",
+        "技能",
+        "副本",
+        "BOSS",
+        "升级",
+        "氪金",
+        "游戏攻略"
+      ],
+      "skills": [
+        "game-guide",
+        "strategy-planner",
+        "build-optimizer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "exec"
+      ],
+      "subtasks": [
+        "understand_game",
+        "analyze_goal",
+        "provide_strategy",
+        "tips"
+      ],
+      "description": "游戏攻略"
+    },
+    "tech_support": {
+      "keywords": [
+        "技术问题",
+        "故障排除",
+        "电脑问题",
+        "手机问题",
+        "软件问题",
+        "网络问题",
+        "系统问题",
+        "报错",
+        "bug",
+        "技术支援"
+      ],
+      "skills": [
+        "tech-support",
+        "troubleshooter",
+        "solution-finder"
+      ],
+      "tools": [
+        "exec",
+        "read"
+      ],
+      "subtasks": [
+        "understand_issue",
+        "diagnose",
+        "suggest_solution",
+        "verify"
+      ],
+      "description": "技术支持"
+    },
+    "software_recommendation": {
+      "keywords": [
+        "软件推荐",
+        "工具推荐",
+        "APP 推荐",
+        "应用推荐",
+        "效率工具",
+        "生产力工具",
+        "替代软件",
+        "软件选择"
+      ],
+      "skills": [
+        "software-expert",
+        "need-analyzer",
+        "comparison-maker"
+      ],
+      "tools": [
+        "exec",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "understand_need",
+        "search_options",
+        "compare",
+        "recommend"
+      ],
+      "description": "软件推荐"
+    },
+    "shopping_advice": {
+      "keywords": [
+        "购物",
+        "购买建议",
+        "选购",
+        "性价比",
+        "比价",
+        "优惠",
+        "折扣",
+        "促销",
+        "双 11",
+        "618",
+        "购物建议"
+      ],
+      "skills": [
+        "shopping-advisor",
+        "price-tracker",
+        "deal-finder"
+      ],
+      "tools": [
+        "exec",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "understand_need",
+        "research_options",
+        "compare_prices",
+        "recommend"
+      ],
+      "description": "购物建议"
+    },
+    "language_learning": {
+      "keywords": [
+        "学英语",
+        "学日语",
+        "学韩语",
+        "学法语",
+        "学德语",
+        "学西班牙语",
+        "学俄语",
+        "学小语种",
+        "背单词",
+        "练口语",
+        "学语法",
+        "语言学习"
+      ],
+      "skills": [
+        "language-tutor",
+        "vocabulary-builder",
+        "grammar-explainer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "tts"
+      ],
+      "subtasks": [
+        "assess_level",
+        "create_plan",
+        "provide_materials",
+        "practice"
+      ],
+      "description": "语言学习"
+    },
+    "exam_preparation": {
+      "keywords": [
+        "考试",
+        "备考",
+        "复习",
+        "刷题",
+        "模拟题",
+        "真题",
+        "考点",
+        "重点",
+        "押题",
+        "冲刺",
+        "考试准备",
+        "备考复习",
+        "备考考试",
+        "复习备考"
+      ],
+      "skills": [
+        "exam-coach",
+        "study-planner",
+        "weakness-finder"
+      ],
+      "tools": [
+        "feishu_task_task",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "analyze_exam",
+        "create_plan",
+        "provide_materials",
+        "track_progress"
+      ],
+      "description": "考试备考"
+    },
+    "presentation_design": {
+      "keywords": [
+        "PPT",
+        "演示文稿",
+        "演讲",
+        "汇报",
+        "展示",
+        "幻灯片",
+        "Keynote",
+        "路演",
+        "提案",
+        "演示设计"
+      ],
+      "skills": [
+        "presentation-designer",
+        "story-structure",
+        "visual-enhancer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "understand_audience",
+        "structure_content",
+        "design_slides",
+        "practice"
+      ],
+      "description": "演示文稿设计"
+    },
+    "mind_mapping": {
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "思路整理",
+        "头脑风暴",
+        "创意",
+        "发散思维",
+        "结构化思考",
+        "思维整理"
+      ],
+      "skills": [
+        "mind-mapper",
+        "idea-organizer",
+        "structure-builder"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "central_topic",
+        "branch_out",
+        "organize",
+        "refine"
+      ],
+      "description": "思维导图"
+    },
+    "decision_making": {
+      "keywords": [
+        "决策",
+        "选择",
+        "决定",
+        "取舍",
+        "利弊分析",
+        "优缺点",
+        "决策树",
+        "SWOT 分析",
+        "决策分析"
+      ],
+      "skills": [
+        "decision-analyst",
+        "swot-analyzer",
+        "risk-evaluator"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "define_options",
+        "analyze_pros_cons",
+        "evaluate_risks",
+        "recommend"
+      ],
+      "description": "决策分析"
+    },
+    "problem_solving": {
+      "keywords": [
+        "问题解决",
+        "解决问题",
+        "难题",
+        "困境",
+        "怎么办",
+        "如何应对",
+        "解决方案",
+        "问题处理"
+      ],
+      "skills": [
+        "problem-solver",
+        "root-cause-analyzer",
+        "solution-generator"
+      ],
+      "tools": [
+        "read",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "define_problem",
+        "analyze_causes",
+        "generate_solutions",
+        "implement"
+      ],
+      "description": "问题解决"
+    },
+    "creative_ideation": {
+      "keywords": [
+        "创意",
+        "头脑风暴",
+        "点子",
+        "灵感",
+        "创新",
+        "创意方案",
+        "创意策划",
+        "创意写作",
+        "创意构思"
+      ],
+      "skills": [
+        "idea-generator",
+        "creativity-booster",
+        "association-maker"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "diverge",
+        "explore",
+        "combine",
+        "refine"
+      ],
+      "description": "创意构思"
+    },
+    "brand_naming": {
+      "keywords": [
+        "起名",
+        "取名",
+        "品牌名",
+        "公司名",
+        "产品名",
+        "项目名",
+        "昵称",
+        "代号",
+        "英文名",
+        "中文名",
+        "品牌起名"
+      ],
+      "skills": [
+        "name-generator",
+        "cultural-checker",
+        "trademark-checker"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "exec"
+      ],
+      "subtasks": [
+        "understand_brand",
+        "generate_names",
+        "check_availability",
+        "select_best"
+      ],
+      "description": "品牌起名"
+    },
+    "creative_writing": {
+      "keywords": [
+        "写",
+        "创作",
+        "小说",
+        "故事",
+        "诗歌",
+        "剧本",
+        "文章",
+        "文学",
+        "作家",
+        "写一部",
+        "写一个",
+        "科幻",
+        "短篇",
+        "长篇",
+        "随笔",
+        "札记",
+        "小品文",
+        "杂文",
+        "评论",
+        "社论",
+        "专栏",
+        "连载",
+        "番外",
+        "同人文",
+        "CP文",
+        "AU",
+        "oc",
+        "原创角色",
+        "二创",
+        "衍生",
+        "paro",
+        "ABO",
+        "哨兵向导",
+        "快穿",
+        "无限流",
+        "重生",
+        "穿越",
+        "系统",
+        "金手指",
+        "逆袭",
+        "打脸",
+        "爽文",
+        "虐文",
+        "BE",
+        "HE",
+        "开放式结局",
+        "肉文",
+        "清水",
+        "分级",
+        "R18",
+        "NC17",
+        "字数",
+        "大纲",
+        "细纲",
+        "人设",
+        "世界观",
+        "设定",
+        "塔罗牌",
+        "占卜",
+        "星座",
+        "运势",
+        "每日运势",
+        "周运势",
+        "月运势",
+        "年运",
+        "属相",
+        "生肖",
+        "八字",
+        "命理",
+        "风水",
+        "起名",
+        "取名",
+        "改名",
+        "公司名",
+        "品牌名",
+        "产品名",
+        "slogan",
+        "口号",
+        "广告语",
+        "品牌故事",
+        "品牌文案",
+        "社交媒体文案",
+        "短视频文案",
+        "直播间话术",
+        "销售话术",
+        "客服话术",
+        "话术",
+        "脚本",
+        "台词",
+        "分镜",
+        "分镜脚本",
+        "创意脚本",
+        "广告脚本",
+        "宣传片脚本",
+        "纪录片脚本",
+        "动画片脚本",
+        "微电影脚本",
+        "短剧剧本",
+        "小品剧本",
+        "相声剧本",
+        "脱口秀脚本",
+        "段子",
+        "包袱",
+        "梗",
+        "流行语",
+        "热梗",
+        "网络用语",
+        "缩写",
+        "术语",
+        "行业术语",
+        "黑话",
+        "切口",
+        "行话",
+        "帮派黑话",
+        "专业术语",
+        "学术术语",
+        "技术术语",
+        "医学术语",
+        "法律术语",
+        "金融术语",
+        "IT术语",
+        "营销术语",
+        "销售术语",
+        "客服术语",
+        "运营术语",
+        "产品术语",
+        "设计术语",
+        "开发术语",
+        "测试术语",
+        "运维术语",
+        "安全术语"
+      ],
+      "skills": [
+        "clawrouter/writer",
+        "openclaw/storyteller",
+        "creative-writer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "description": "创作类任务：小说、故事、文章等"
+    },
+    "weather_query": {
+      "keywords": [
+        "天气",
+        "气温",
+        "预报",
+        "下雨",
+        "晴天",
+        "多云",
+        "刮风",
+        "温度",
+        "几度",
+        "冷",
+        "热"
+      ],
+      "skills": [
+        "weather"
+      ],
+      "tools": [
+        "exec:curl wttr.in"
+      ],
+      "description": "天气查询任务"
+    },
+    "news_search": {
+      "keywords": [
+        "新闻",
+        "时事",
+        "热搜",
+        "头条",
+        "资讯",
+        "动态",
+        "最新消息"
+      ],
+      "skills": [
+        "news-fetcher",
+        "web-search"
+      ],
+      "tools": [
+        "exec:curl"
+      ],
+      "description": "新闻资讯查询"
+    },
+    "data_analysis": {
+      "keywords": [
+        "分析",
+        "数据",
+        "图表",
+        "统计",
+        "报表",
+        "可视化",
+        "趋势",
+        "销售",
+        "增长",
+        "数据分析",
+        "数据挖掘",
+        "数据科学",
+        "数据工程",
+        "商业分析",
+        "业务分析",
+        "运营分析",
+        "用户分析",
+        "客户分析",
+        "市场分析",
+        "竞争分析",
+        "行业分析",
+        "趋势分析",
+        "预测分析",
+        "文本分析",
+        "情感分析",
+        "舆情分析",
+        "社交媒体分析",
+        "日志分析",
+        "点击流分析",
+        "用户行为分析",
+        "用户画像",
+        "用户分群",
+        "用户标签",
+        "用户路径分析",
+        "漏斗分析",
+        "留存分析",
+        "转化分析",
+        "活跃分析",
+        "流失分析",
+        "复购分析",
+        "客单价分析",
+        "GMV分析",
+        "营收分析",
+        "利润分析",
+        "成本分析",
+        "预算分析",
+        "财务分析",
+        "投资分析",
+        "风险分析",
+        "信用分析",
+        "欺诈检测",
+        "异常检测",
+        "质量分析",
+        "质量管控",
+        "过程分析",
+        "结果分析",
+        "AB测试",
+        "多变量测试",
+        " bandit算法",
+        "强化学习",
+        "在线学习",
+        "迁移学习",
+        "联邦学习",
+        "神经网络",
+        "卷积神经网络",
+        "循环神经网络",
+        "Transformer",
+        "BERT",
+        "GPT",
+        "LSTM",
+        "RNN",
+        "CNN",
+        "GAN",
+        "VAE",
+        "Q学习",
+        "DQN",
+        "Actor-Critic",
+        "PPO",
+        "DDPG",
+        "Sarsa",
+        "蒙特卡洛",
+        "MCTS",
+        "贝叶斯",
+        "概率图模型",
+        "PGM",
+        "贝叶斯网络",
+        "马尔可夫",
+        "HMM",
+        "CRF",
+        "条件随机场",
+        "隐马尔可夫",
+        "EM算法",
+        "变分推断",
+        "VI",
+        "MCMC",
+        "Gibbs采样",
+        "Metropolis-Hastings",
+        "拒绝采样",
+        "重要性采样",
+        "粒子滤波",
+        "卡尔曼滤波",
+        "扩展卡尔曼滤波",
+        "无损卡尔曼滤波",
+        "粒子群优化",
+        "PSO",
+        "遗传算法",
+        "GA",
+        "进化算法",
+        "EA",
+        "蚁群算法",
+        "ACO",
+        "模拟退火",
+        "SA",
+        "禁忌搜索",
+        "TS",
+        "贪心算法",
+        "局部搜索",
+        "启发式搜索",
+        "元启发式",
+        "超启发式",
+        "自动机器学习",
+        "AutoML",
+        "神经架构搜索",
+        "NAS",
+        "超参数优化",
+        "HPO",
+        "贝叶斯优化",
+        "Hyperopt",
+        "Optuna",
+        "特征选择",
+        "特征工程",
+        "特征提取",
+        "特征构造",
+        "特征变换",
+        "归一化",
+        "标准化",
+        "正则化",
+        "降维",
+        "PCA",
+        "t-SNE",
+        "UMAP",
+        "LLE",
+        "Isomap",
+        "MDS",
+        "SVD",
+        "矩阵分解",
+        "NMF",
+        "FMA",
+        "SGD",
+        "Adam",
+        "RMSprop",
+        "Adagrad",
+        "Adadelta",
+        "AdamW",
+        "Nesterov",
+        "动量",
+        "学习率",
+        "批量大小",
+        "Epoch",
+        "Batch",
+        "Iteration",
+        "梯度下降",
+        "反向传播",
+        "前向传播",
+        "激活函数",
+        "ReLU",
+        "Sigmoid",
+        "Tanh",
+        "Softmax",
+        "损失函数",
+        "交叉熵",
+        "MSE",
+        "MAE",
+        "Huber",
+        "Smooth L1",
+        "Focal Loss",
+        "池化",
+        "Dropout",
+        "Batch Normalization",
+        "Layer Normalization",
+        "Instance Normalization",
+        "Group Normalization",
+        "残差连接",
+        "Skip Connection",
+        "Attention",
+        "Self-Attention",
+        "Multi-Head Attention",
+        "位置编码",
+        "Positional Encoding",
+        "Embedding",
+        "Word2Vec",
+        "GloVe",
+        "FastText",
+        "ELMo",
+        "RoBERTa",
+        "ALBERT",
+        "ERNIE",
+        "XLNet",
+        "DistilBERT",
+        "TinyBERT",
+        "模型压缩",
+        "模型蒸馏",
+        "知识蒸馏",
+        "蒸馏",
+        "剪枝",
+        "量化",
+        "微调",
+        "Fine-tuning",
+        "Prompt",
+        "Prompt工程",
+        "Few-shot",
+        "Zero-shot",
+        "One-shot",
+        "ICL",
+        "In-Context Learning",
+        "链式思考",
+        "CoT",
+        "思维链",
+        "RAG",
+        "Retrieval Augmented Generation",
+        "向量数据库",
+        "Milvus",
+        "Pinecone",
+        "Weaviate",
+        "Chroma",
+        "FAISS",
+        "ANN",
+        "近似最近邻",
+        "欧氏距离",
+        "余弦相似度",
+        "曼哈顿距离",
+        "汉明距离",
+        "Jaccard相似度",
+        "皮尔逊相关系数",
+        "斯皮尔曼相关系数",
+        "肯德尔相关系数",
+        "卡方检验",
+        "T检验",
+        "F检验",
+        "ANOVA",
+        "Kruskal-Wallis",
+        "Mann-Whitney U",
+        "Wilcoxon",
+        "泊松分布",
+        "正态分布",
+        "对数正态分布",
+        "指数分布",
+        "伽马分布",
+        "贝塔分布",
+        "威布尔分布",
+        "均匀分布",
+        "二项分布",
+        "多项分布",
+        "超几何分布",
+        "几何分布",
+        "负二项分布",
+        "瑞利分布",
+        "柯西分布",
+        "拉普拉斯分布",
+        "Logistic分布",
+        "Gumbel分布",
+        "Fréchet分布",
+        "概率密度",
+        "概率质量",
+        "累积分布",
+        "CDF",
+        "分位数",
+        "四分位数",
+        "十分位数",
+        "百分位数",
+        "箱线图",
+        "Box Plot",
+        "小提琴图",
+        "Violin Plot",
+        "密度图",
+        "直方图",
+        "热力图",
+        "相关矩阵",
+        "协方差矩阵",
+        "散点图矩阵",
+        "平行坐标图",
+        "雷达图",
+        "蜘蛛图",
+        "K线图",
+        "股票图",
+        "蜡烛图",
+        "Tree Map",
+        "旭日图",
+        "Sankey图",
+        "甘特图",
+        "PERT图",
+        "流程图",
+        "时序图",
+        "架构图",
+        "拓扑图",
+        "网络图",
+        "关系图",
+        "知识图谱",
+        "本体",
+        "本体论",
+        "知识表示",
+        "知识推理",
+        "知识抽取",
+        "知识融合",
+        "知识图谱构建",
+        "实体识别",
+        "NER",
+        "命名实体识别",
+        "实体链接",
+        "实体消歧",
+        "关系抽取",
+        "RE",
+        "属性抽取",
+        "事件抽取",
+        "EE",
+        "知识问答",
+        "KBQA",
+        "语义解析",
+        "SPARKQL",
+        "Cypher",
+        "Gremlin",
+        "图数据库",
+        "Neo4j",
+        "JanusGraph",
+        "ArangoDB",
+        "OrientDB",
+        "TigerGraph",
+        "NebulaGraph",
+        "图计算",
+        "PageRank",
+        "社区检测",
+        "Louvain",
+        "Label Propagation",
+        " Girvan-Newman",
+        "谱聚类",
+        "图的特征向量",
+        "图嵌入",
+        "Node2Vec",
+        "DeepWalk",
+        "LINE",
+        "GraphSAGE",
+        "GAT",
+        "图神经网络",
+        "GCN",
+        "ChebNet",
+        "时空图神经网络",
+        "STGNN"
+      ],
+      "skills": [
+        "data-analyzer",
+        "chart-generator"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "feishu_bitable"
+      ],
+      "description": "数据分析与图表生成"
+    },
+    "file_operation": {
+      "keywords": [
+        "文件",
+        "复制",
+        "移动",
+        "删除",
+        "整理",
+        "文件夹",
+        "目录",
+        "保存"
+      ],
+      "skills": [
+        "file-manager"
+      ],
+      "tools": [
+        "exec",
+        "read",
+        "write"
+      ],
+      "description": "文件操作任务"
+    },
+    "code_generation": {
+      "keywords": [
+        "代码",
+        "编程",
+        "开发",
+        "脚本",
+        "函数",
+        "python",
+        "java",
+        "js",
+        "html",
+        "css",
+        "程序",
+        "算法"
+      ],
+      "skills": [
+        "code-generator",
+        "dev-helper"
+      ],
+      "tools": [
+        "exec",
+        "write"
+      ],
+      "description": "代码生成与开发"
+    },
+    "image_generation": {
+      "keywords": [
+        "图片",
+        "图像",
+        "画图",
+        "生成图片",
+        "绘图",
+        "照片",
+        "图",
+        "画一",
+        "制作图片",
+        "生成",
+        "日出",
+        "风景",
+        "人像",
+        "卡通",
+        "漫画"
+      ],
+      "skills": [
+        "imagegen"
+      ],
+      "tools": [
+        "imagegen"
+      ],
+      "description": "图片生成任务"
+    },
+    "task_management": {
+      "keywords": [
+        "任务",
+        "待办",
+        "提醒",
+        "日程",
+        "计划",
+        "会议",
+        "约会",
+        "安排",
+        "时间",
+        "预约"
+      ],
+      "skills": [
+        "feishu-task"
+      ],
+      "tools": [
+        "feishu_task_task",
+        "feishu_calendar_event"
+      ],
+      "description": "任务与日程管理"
+    },
+    "document_operation": {
+      "keywords": [
+        "文档",
+        "飞书",
+        "云文档",
+        "doc",
+        "文档记录",
+        "会议纪要",
+        "创建文档",
+        "编辑文档"
+      ],
+      "skills": [
+        "feishu-doc",
+        "feishu-create-doc",
+        "feishu-update-doc"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_update_doc",
+        "feishu_fetch_doc"
+      ],
+      "description": "飞书文档操作"
+    },
+    "web_search": {
+      "keywords": [
+        "搜索",
+        "查找",
+        "查询",
+        "google",
+        "百度",
+        "搜一下",
+        "查一下",
+        "最新",
+        "新闻"
+      ],
+      "skills": [
+        "web-searcher"
+      ],
+      "tools": [
+        "exec:curl"
+      ],
+      "description": "网络搜索任务"
+    },
+    "creative_writing_poetry": {
+      "keywords": [
+        "写诗",
+        "诗歌",
+        "古诗",
+        "现代诗",
+        "诗词",
+        "作诗",
+        "吟诗",
+        "赋诗",
+        "诗歌创作"
+      ],
+      "skills": [
+        "poetry-structure",
+        "rhyme-generator",
+        "imagery-builder"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "theme",
+        "structure",
+        "draft",
+        "polish"
+      ],
+      "description": "诗歌创作",
+      "phase": "主题确定→格律构建→初稿创作→润色完善",
+      "qualityGates": [
+        "格律正确",
+        "意境优美",
+        "押韵准确"
+      ]
+    },
+    "creative_writing_script": {
+      "keywords": [
+        "剧本",
+        "脚本",
+        "话剧",
+        "电影剧本",
+        "电视剧本",
+        "小品",
+        "相声",
+        "剧本创作",
+        "写剧本"
+      ],
+      "skills": [
+        "script-structure",
+        "dialogue-writer",
+        "scene-builder"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "outline",
+        "character",
+        "scenes",
+        "dialogue",
+        "review"
+      ],
+      "description": "剧本创作",
+      "phase": "大纲→人物→分场→对话→审阅",
+      "qualityGates": [
+        "结构完整",
+        "对话生动",
+        "冲突合理"
+      ]
+    },
+    "world_building": {
+      "keywords": [
+        "世界观",
+        "构建世界",
+        "设定世界",
+        "世界背景",
+        "架空世界",
+        "奇幻世界",
+        "科幻世界"
+      ],
+      "skills": [
+        "world-builder",
+        "lore-creator",
+        "culture-designer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_bitable"
+      ],
+      "subtasks": [
+        "geography",
+        "history",
+        "culture",
+        "politics",
+        "economy"
+      ],
+      "description": "世界观构建",
+      "phase": "地理→历史→文化→政治→经济",
+      "qualityGates": [
+        "设定自洽",
+        "细节丰富",
+        "逻辑合理"
+      ]
+    },
+    "plot_development": {
+      "keywords": [
+        "情节",
+        "剧情",
+        "故事线",
+        "情节发展",
+        "剧情设计",
+        "故事构思"
+      ],
+      "skills": [
+        "plot-designer",
+        "conflict-creator",
+        "pacing-controller"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "conflict",
+        "climax",
+        "resolution"
+      ],
+      "description": "情节设计",
+      "phase": "冲突设置→高潮设计→结局安排",
+      "qualityGates": [
+        "节奏紧凑",
+        "冲突合理",
+        "高潮精彩"
+      ]
+    },
+    "dialogue_creation": {
+      "keywords": [
+        "对话",
+        "台词",
+        "人物对话",
+        "编写对话",
+        "台词设计"
+      ],
+      "skills": [
+        "dialogue-writer",
+        "voice-differentiator",
+        "subtext-creator"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "character_voice",
+        "conflict",
+        "subtext"
+      ],
+      "description": "对话创作",
+      "phase": "人物声音→冲突对话→潜台词",
+      "qualityGates": [
+        "符合人物",
+        "推动情节",
+        "生动自然"
+      ]
+    },
+    "chapter_writing": {
+      "keywords": [
+        "章节",
+        "写章节",
+        "章节撰写",
+        "分章",
+        "章回"
+      ],
+      "skills": [
+        "chapter-structure",
+        "pacing-control",
+        "cliffhanger"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "opening",
+        "development",
+        "climax",
+        "ending"
+      ],
+      "description": "章节撰写",
+      "phase": "开篇→发展→高潮→结尾",
+      "qualityGates": [
+        "结构完整",
+        "节奏适宜",
+        "有吸引力"
+      ]
+    },
+    "formatting": {
+      "keywords": [
+        "格式",
+        "排版",
+        "格式化",
+        "整理格式",
+        "调整格式"
+      ],
+      "skills": [
+        "formatter",
+        "layout-designer"
+      ],
+      "tools": [
+        "feishu_update_doc",
+        "write"
+      ],
+      "subtasks": [
+        "structure",
+        "style",
+        "consistency"
+      ],
+      "description": "格式整理",
+      "phase": "结构→样式→一致性检查",
+      "qualityGates": [
+        "格式规范",
+        "美观统一"
+      ]
+    },
+    "final_review": {
+      "keywords": [
+        "终稿",
+        "最终审阅",
+        "最后检查",
+        "终审",
+        "完稿"
+      ],
+      "skills": [
+        "final-reviewer",
+        "quality-checker"
+      ],
+      "tools": [
+        "read",
+        "feishu_doc_comments"
+      ],
+      "subtasks": [
+        "completeness",
+        "consistency",
+        "quality"
+      ],
+      "description": "最终审阅",
+      "phase": "完整性→一致性→质量",
+      "qualityGates": [
+        "无遗漏",
+        "高质量"
+      ]
+    },
+    "export_publish": {
+      "keywords": [
+        "导出",
+        "发布",
+        "提交",
+        "输出",
+        "发表"
+      ],
+      "skills": [
+        "exporter",
+        "publisher"
+      ],
+      "tools": [
+        "feishu_update_doc",
+        "exec"
+      ],
+      "subtasks": [
+        "format",
+        "export",
+        "publish"
+      ],
+      "description": "导出发布",
+      "phase": "格式化→导出→发布",
+      "qualityGates": [
+        "格式正确",
+        "发布成功"
+      ]
+    },
+    "topic_analysis": {
+      "keywords": [
+        "主题分析",
+        "选题",
+        "确定主题",
+        "话题分析"
+      ],
+      "skills": [
+        "topic-analyzer",
+        "angle-finder"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "understand",
+        "explore",
+        "define"
+      ],
+      "description": "主题分析",
+      "phase": "理解→探索→定义",
+      "qualityGates": [
+        "主题明确",
+        "角度新颖"
+      ]
+    },
+    "draft_writing": {
+      "keywords": [
+        "初稿",
+        "草稿",
+        "写初稿",
+        "起草"
+      ],
+      "skills": [
+        "drafter",
+        "content-generator"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "outline",
+        "write",
+        "review"
+      ],
+      "description": "初稿撰写",
+      "phase": "大纲→撰写→审阅",
+      "qualityGates": [
+        "内容完整",
+        "逻辑清晰"
+      ]
+    },
+    "editing": {
+      "keywords": [
+        "编辑",
+        "编辑修改",
+        "文稿编辑",
+        "修订"
+      ],
+      "skills": [
+        "editor",
+        "structure-improver"
+      ],
+      "tools": [
+        "feishu_update_doc",
+        "read"
+      ],
+      "subtasks": [
+        "structure",
+        "content",
+        "style"
+      ],
+      "description": "编辑修订",
+      "phase": "结构→内容→风格",
+      "qualityGates": [
+        "结构优化",
+        "内容准确"
+      ]
+    },
+    "proofreading": {
+      "keywords": [
+        "校对",
+        "校稿",
+        "校对错别字",
+        "文字校对"
+      ],
+      "skills": [
+        "proofreader",
+        "typo-finder"
+      ],
+      "tools": [
+        "read",
+        "feishu_update_doc"
+      ],
+      "subtasks": [
+        "spelling",
+        "grammar",
+        "punctuation"
+      ],
+      "description": "校对",
+      "phase": "拼写→语法→标点",
+      "qualityGates": [
+        "无错别字",
+        "语法正确",
+        "标点规范"
+      ]
+    },
+    "tone_adjustment": {
+      "keywords": [
+        "语气",
+        "语调",
+        "语气调整",
+        "文风调整"
+      ],
+      "skills": [
+        "tone-adjuster",
+        "style-modifier"
+      ],
+      "tools": [
+        "feishu_update_doc",
+        "read"
+      ],
+      "subtasks": [
+        "analyze",
+        "adjust",
+        "verify"
+      ],
+      "description": "语气调整",
+      "phase": "分析→调整→验证",
+      "qualityGates": [
+        "语气一致",
+        "风格统一"
+      ]
+    },
+    "hook_writing": {
+      "keywords": [
+        "开头",
+        "钩子",
+        "吸引读者",
+        "引人入胜"
+      ],
+      "skills": [
+        "hook-writer",
+        "attention-grabber"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "analyze_audience",
+        "create_hook",
+        "test"
+      ],
+      "description": "开头写作",
+      "phase": "分析受众→创作钩子→测试",
+      "qualityGates": [
+        "吸引力强",
+        "引入自然"
+      ]
+    },
+    "content_outline": {
+      "keywords": [
+        "内容大纲",
+        "文章大纲",
+        "提纲",
+        "内容框架"
+      ],
+      "skills": [
+        "outliner",
+        "structure-builder"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "main_points",
+        "subpoints",
+        "flow"
+      ],
+      "description": "内容大纲",
+      "phase": "要点→子要点→流程",
+      "qualityGates": [
+        "结构清晰",
+        "逻辑连贯"
+      ]
+    },
+    "fitness_plan": {
+      "keywords": [
+        "健身",
+        "健身计划",
+        "锻炼",
+        "训练计划",
+        "减肥",
+        "增肌",
+        "塑形",
+        "运动计划"
+      ],
+      "skills": [
+        "fitness-planner",
+        "workout-designer",
+        "nutrition-advisor"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "assess_level",
+        "set_goals",
+        "plan_workout",
+        "nutrition_plan"
+      ],
+      "description": "健身计划",
+      "phase": "水平评估→目标设定→训练计划→饮食计划",
+      "qualityGates": [
+        "目标明确",
+        "计划可行",
+        "营养均衡"
+      ]
+    },
+    "diet_plan": {
+      "keywords": [
+        "饮食",
+        "饮食计划",
+        "食谱",
+        "营养餐",
+        "减肥餐",
+        "健康饮食"
+      ],
+      "skills": [
+        "nutritionist",
+        "meal-planner"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "assess_needs",
+        "plan_meals",
+        "shopping_list"
+      ],
+      "description": "饮食计划",
+      "phase": "需求评估→餐单规划→购物清单",
+      "qualityGates": [
+        "营养均衡",
+        "热量适宜",
+        "易操作"
+      ]
+    },
+    "gift_recommendation": {
+      "keywords": [
+        "礼品",
+        "礼物",
+        "送礼",
+        "礼物推荐",
+        "送什么"
+      ],
+      "skills": [
+        "gift-advisor",
+        "preference-analyzer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "understand_recipient",
+        "budget",
+        "interests",
+        "suggest"
+      ],
+      "description": "礼品推荐",
+      "phase": "了解对象→预算→兴趣→建议",
+      "qualityGates": [
+        "贴心",
+        "实用",
+        "符合预算"
+      ]
+    },
+    "home_organization": {
+      "keywords": [
+        "整理",
+        "收纳",
+        "家居整理",
+        "房间整理",
+        "断舍离"
+      ],
+      "skills": [
+        "organizer",
+        "declutter-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "assess_space",
+        "categorize",
+        "organize",
+        "maintain"
+      ],
+      "description": "家居整理",
+      "phase": "评估空间→分类→整理→维护",
+      "qualityGates": [
+        "整洁",
+        "有序",
+        "易维护"
+      ]
+    },
+    "pet_care": {
+      "keywords": [
+        "宠物",
+        "养宠",
+        "宠物护理",
+        "养狗",
+        "养猫",
+        "宠物健康"
+      ],
+      "skills": [
+        "pet-care-advisor",
+        "animal-health"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "basic_care",
+        "health",
+        "training",
+        "nutrition"
+      ],
+      "description": "宠物护理",
+      "phase": "基础护理→健康→训练→营养",
+      "qualityGates": [
+        "科学",
+        "全面",
+        "可操作"
+      ]
+    },
+    "plant_care": {
+      "keywords": [
+        "植物",
+        "养花",
+        "园艺",
+        "绿植",
+        "植物养护",
+        "种花"
+      ],
+      "skills": [
+        "plant-doctor",
+        "gardening-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "identify",
+        "care_schedule",
+        "problem_solve"
+      ],
+      "description": "植物养护",
+      "phase": "识别→养护计划→问题解决",
+      "qualityGates": [
+        "识别准确",
+        "方法正确"
+      ]
+    },
+    "daily_reminder": {
+      "keywords": [
+        "提醒",
+        "日常提醒",
+        "待办",
+        "备忘录",
+        "记事"
+      ],
+      "skills": [
+        "reminder-setter",
+        "task-manager"
+      ],
+      "tools": [
+        "feishu_task_task",
+        "feishu_calendar_event"
+      ],
+      "subtasks": [
+        "capture",
+        "categorize",
+        "schedule",
+        "remind"
+      ],
+      "description": "日常提醒",
+      "phase": "记录→分类→安排→提醒",
+      "qualityGates": [
+        "及时",
+        "准确",
+        "不遗漏"
+      ]
+    },
+    "habit_tracker": {
+      "keywords": [
+        "习惯",
+        "习惯追踪",
+        "打卡",
+        "习惯养成",
+        "坚持"
+      ],
+      "skills": [
+        "habit-coach",
+        "progress-tracker"
+      ],
+      "tools": [
+        "feishu_task_task",
+        "feishu_bitable"
+      ],
+      "subtasks": [
+        "define_habit",
+        "track",
+        "review",
+        "adjust"
+      ],
+      "description": "习惯追踪",
+      "phase": "定义→追踪→回顾→调整",
+      "qualityGates": [
+        "目标清晰",
+        "追踪持续",
+        "有反馈"
+      ]
+    },
+    "reading_plan": {
+      "keywords": [
+        "阅读",
+        "读书",
+        "阅读计划",
+        "书单",
+        "读书计划"
+      ],
+      "skills": [
+        "reading-planner",
+        "book-curator"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "assess_interest",
+        "select_books",
+        "schedule",
+        "track"
+      ],
+      "description": "阅读计划",
+      "phase": "兴趣评估→选书→计划→追踪",
+      "qualityGates": [
+        "兴趣匹配",
+        "计划可行"
+      ]
+    },
+    "skill_learning": {
+      "keywords": [
+        "技能",
+        "学技能",
+        "技能学习",
+        "学习新技能"
+      ],
+      "skills": [
+        "skill-mapper",
+        "learning-path-designer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_task_task"
+      ],
+      "subtasks": [
+        "define_skill",
+        "resources",
+        "practice_plan",
+        "review"
+      ],
+      "description": "技能学习",
+      "phase": "定义技能→资源→练习计划→回顾",
+      "qualityGates": [
+        "目标明确",
+        "路径清晰",
+        "可实践"
+      ]
+    },
+    "course_selection": {
+      "keywords": [
+        "选课",
+        "课程选择",
+        "选什么课",
+        "课程推荐"
+      ],
+      "skills": [
+        "course-advisor",
+        "curriculum-analyzer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "understand_goals",
+        "analyze_options",
+        "recommend"
+      ],
+      "description": "选课建议",
+      "phase": "了解目标→分析选项→建议",
+      "qualityGates": [
+        "匹配目标",
+        "切实可行"
+      ]
+    },
+    "study_technique": {
+      "keywords": [
+        "学习技巧",
+        "学习方法",
+        "高效学习",
+        "记忆方法"
+      ],
+      "skills": [
+        "study-coach",
+        "technique-advisor"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "assess_style",
+        "suggest_techniques",
+        "practice_plan"
+      ],
+      "description": "学习技巧",
+      "phase": "评估风格→建议技巧→练习计划",
+      "qualityGates": [
+        "方法科学",
+        "适合个人"
+      ]
+    },
+    "knowledge_mapping": {
+      "keywords": [
+        "知识图谱",
+        "知识地图",
+        "知识梳理",
+        "知识体系"
+      ],
+      "skills": [
+        "knowledge-mapper",
+        "structure-builder"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "define_domain",
+        "identify_concepts",
+        "link",
+        "visualize"
+      ],
+      "description": "知识图谱",
+      "phase": "定义领域→识别概念→关联→可视化",
+      "qualityGates": [
+        "结构清晰",
+        "关联合理",
+        "可视化好"
+      ]
+    },
+    "research_method": {
+      "keywords": [
+        "研究方法",
+        "调研方法",
+        "研究设计"
+      ],
+      "skills": [
+        "research-methodologist",
+        "design-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "define_question",
+        "choose_method",
+        "design",
+        "execute"
+      ],
+      "description": "研究方法",
+      "phase": "定义问题→选择方法→设计→执行",
+      "qualityGates": [
+        "方法适当",
+        "设计严谨"
+      ]
+    },
+    "thesis_writing": {
+      "keywords": [
+        "论文写作",
+        "写论文",
+        "毕业论文",
+        "学术论文写作"
+      ],
+      "skills": [
+        "thesis-writer",
+        "academic-structure"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_sheet"
+      ],
+      "subtasks": [
+        "topic",
+        "outline",
+        "research",
+        "write",
+        "revise"
+      ],
+      "description": "论文写作",
+      "phase": "选题→大纲→研究→写作→修改",
+      "qualityGates": [
+        "结构规范",
+        "论证充分",
+        "格式正确"
+      ]
+    },
+    "citation_help": {
+      "keywords": [
+        "引用",
+        "参考文献",
+        "引用格式",
+        "citation"
+      ],
+      "skills": [
+        "citation-helper",
+        "reference-formatter"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "identify_type",
+        "format",
+        "verify"
+      ],
+      "description": "引用帮助",
+      "phase": "识别类型→格式化→验证",
+      "qualityGates": [
+        "格式正确",
+        "信息完整"
+      ]
+    },
+    "cover_letter": {
+      "keywords": [
+        "求职信",
+        "自荐信",
+        "cover letter",
+        "申请信"
+      ],
+      "skills": [
+        "cover-letter-writer",
+        "persuasive-writer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "understand_job",
+        "highlight_match",
+        "write",
+        "polish"
+      ],
+      "description": "求职信写作",
+      "phase": "理解职位→突出匹配→写作→润色",
+      "qualityGates": [
+        "针对性强",
+        "有说服力",
+        "专业"
+      ]
+    },
+    "salary_negotiation": {
+      "keywords": [
+        "薪资谈判",
+        "谈薪水",
+        "薪资协商",
+        "加薪谈判"
+      ],
+      "skills": [
+        "negotiation-strategist",
+        "market-analyzer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "research_market",
+        "prepare_case",
+        "negotiate"
+      ],
+      "description": "薪资谈判",
+      "phase": "市场调研→准备案例→谈判",
+      "qualityGates": [
+        "数据支持",
+        "策略清晰",
+        "语气温和"
+      ]
+    },
+    "career_transition": {
+      "keywords": [
+        "职业转型",
+        "转行",
+        "换行业",
+        "职业转变"
+      ],
+      "skills": [
+        "career-transition-coach",
+        "gap-analyzer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "assess_current",
+        "identify_target",
+        "gap_analysis",
+        "action_plan"
+      ],
+      "description": "职业转型",
+      "phase": "评估现状→确定目标→差距分析→行动计划",
+      "qualityGates": [
+        "目标清晰",
+        "路径可行",
+        "风险可控"
+      ]
+    },
+    "side_hustle": {
+      "keywords": [
+        "副业",
+        "兼职",
+        "副业规划",
+        "搞钱",
+        "斜杠"
+      ],
+      "skills": [
+        "side-hustle-advisor",
+        "opportunity-finder"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "assess_skills",
+        "find_opportunities",
+        "evaluate",
+        "plan"
+      ],
+      "description": "副业规划",
+      "phase": "技能评估→发现机会→评估→计划",
+      "qualityGates": [
+        "匹配技能",
+        "时间可行",
+        "收益合理"
+      ]
+    },
+    "personal_branding": {
+      "keywords": [
+        "个人品牌",
+        "个人 IP",
+        "品牌塑造",
+        "个人形象"
+      ],
+      "skills": [
+        "brand-strategist",
+        "positioning-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "define_identity",
+        "target_audience",
+        "strategy",
+        "execute"
+      ],
+      "description": "个人品牌",
+      "phase": "定义身份→目标受众→策略→执行",
+      "qualityGates": [
+        "定位清晰",
+        "差异化",
+        "可持续"
+      ]
+    },
+    "networking_strategy": {
+      "keywords": [
+        "人脉",
+        "社交",
+        "人脉建立",
+        "networking"
+      ],
+      "skills": [
+        "networking-coach",
+        "relationship-builder"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "identify_targets",
+        "approach_strategy",
+        "maintain"
+      ],
+      "description": "人脉建立",
+      "phase": "识别目标→接触策略→维护",
+      "qualityGates": [
+        "目标明确",
+        "方法自然",
+        "长期维护"
+      ]
+    },
+    "leadership_development": {
+      "keywords": [
+        "领导力",
+        "领导力发展",
+        "管理能力",
+        "带团队"
+      ],
+      "skills": [
+        "leadership-coach",
+        "management-advisor"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "assess_style",
+        "identify_gaps",
+        "development_plan",
+        "practice"
+      ],
+      "description": "领导力发展",
+      "phase": "评估风格→识别差距→发展计划→实践",
+      "qualityGates": [
+        "自我认知",
+        "计划具体",
+        "可实践"
+      ]
+    },
+    "investment_advice": {
+      "keywords": [
+        "投资",
+        "投资建议",
+        "理财投资",
+        "投资咨询"
+      ],
+      "skills": [
+        "investment-advisor",
+        "risk-analyzer"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "assess_risk",
+        "understand_goals",
+        "suggest_allocation",
+        "monitor"
+      ],
+      "description": "投资建议",
+      "phase": "风险评估→目标理解→配置建议→监控",
+      "qualityGates": [
+        "风险匹配",
+        "建议合理",
+        "风险提示"
+      ]
+    },
+    "stock_analysis": {
+      "keywords": [
+        "股票",
+        "股票分析",
+        "个股分析",
+        "炒股"
+      ],
+      "skills": [
+        "stock-analyst",
+        "financial-statement-reader"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "exec"
+      ],
+      "subtasks": [
+        "company_analysis",
+        "financial_analysis",
+        "valuation",
+        "risk"
+      ],
+      "description": "股票分析",
+      "phase": "公司分析→财务分析→估值→风险",
+      "qualityGates": [
+        "数据准确",
+        "分析全面",
+        "风险提示"
+      ]
+    },
+    "fund_selection": {
+      "keywords": [
+        "基金",
+        "基金选择",
+        "选基金",
+        "基金推荐"
+      ],
+      "skills": [
+        "fund-analyst",
+        "performance-evaluator"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "read"
+      ],
+      "subtasks": [
+        "understand_type",
+        "performance_analysis",
+        "risk_analysis",
+        "select"
+      ],
+      "description": "基金选择",
+      "phase": "了解类型→业绩分析→风险分析→选择",
+      "qualityGates": [
+        "风险收益匹配",
+        "费用合理",
+        "长期稳定"
+      ]
+    },
+    "insurance_planning": {
+      "keywords": [
+        "保险",
+        "保险规划",
+        "买保险",
+        "保险配置"
+      ],
+      "skills": [
+        "insurance-advisor",
+        "risk-coverage-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "assess_risks",
+        "coverage_gaps",
+        "recommend_products",
+        "review"
+      ],
+      "description": "保险规划",
+      "phase": "风险评估→保障缺口→产品推荐→回顾",
+      "qualityGates": [
+        "保障充分",
+        "保费合理",
+        "条款清晰"
+      ]
+    },
+    "tax_planning": {
+      "keywords": [
+        "税务",
+        "税务规划",
+        "合理避税",
+        "税务筹划"
+      ],
+      "skills": [
+        "tax-planner",
+        "tax-law-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "understand_situation",
+        "identify_opportunities",
+        "plan",
+        "comply"
+      ],
+      "description": "税务规划",
+      "phase": "了解情况→识别机会→规划→合规",
+      "qualityGates": [
+        "合法合规",
+        "节约税负",
+        "风险可控"
+      ]
+    },
+    "budget_management": {
+      "keywords": [
+        "预算",
+        "预算管理",
+        "做预算",
+        "预算控制"
+      ],
+      "skills": [
+        "budget-planner",
+        "expense-tracker"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "feishu_bitable"
+      ],
+      "subtasks": [
+        "income_analysis",
+        "expense_tracking",
+        "budget_creation",
+        "monitor"
+      ],
+      "description": "预算管理",
+      "phase": "收入分析→支出追踪→预算制定→监控",
+      "qualityGates": [
+        "收支平衡",
+        "可执行",
+        "有弹性"
+      ]
+    },
+    "cost_control": {
+      "keywords": [
+        "成本",
+        "成本控制",
+        "降本",
+        "节约成本"
+      ],
+      "skills": [
+        "cost-analyst",
+        "efficiency-expert"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "read"
+      ],
+      "subtasks": [
+        "identify_costs",
+        "analyze_waste",
+        "reduce",
+        "monitor"
+      ],
+      "description": "成本控制",
+      "phase": "识别成本→分析浪费→削减→监控",
+      "qualityGates": [
+        "不影响质量",
+        "成本下降",
+        "可持续"
+      ]
+    },
+    "profit_analysis": {
+      "keywords": [
+        "利润",
+        "利润分析",
+        "盈利能力",
+        "盈利分析"
+      ],
+      "skills": [
+        "profit-analyst",
+        "margin-optimizer"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "read"
+      ],
+      "subtasks": [
+        "revenue_analysis",
+        "cost_analysis",
+        "margin_calculation",
+        "improve"
+      ],
+      "description": "利润分析",
+      "phase": "收入分析→成本分析→利润率计算→改进",
+      "qualityGates": [
+        "数据准确",
+        "分析深入",
+        "建议可行"
+      ]
+    },
+    "cashflow_management": {
+      "keywords": [
+        "现金流",
+        "现金流管理",
+        "资金流",
+        "流动资金"
+      ],
+      "skills": [
+        "cashflow-manager",
+        "liquidity-expert"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "read"
+      ],
+      "subtasks": [
+        "cash_in",
+        "cash_out",
+        "forecast",
+        "optimize"
+      ],
+      "description": "现金流管理",
+      "phase": "流入→流出→预测→优化",
+      "qualityGates": [
+        "流动性充足",
+        "预测准确",
+        "风险可控"
+      ]
+    },
+    "code_java": {
+      "keywords": [
+        "Java",
+        "Java 开发",
+        "java 代码",
+        "java 程序"
+      ],
+      "skills": [
+        "java-coder",
+        "spring-expert"
+      ],
+      "tools": [
+        "exec",
+        "write"
+      ],
+      "subtasks": [
+        "understand",
+        "design",
+        "implement",
+        "test"
+      ],
+      "description": "Java 代码开发",
+      "phase": "理解→设计→实现→测试",
+      "qualityGates": [
+        "功能完整",
+        "代码规范",
+        "性能良好"
+      ]
+    },
+    "code_cpp": {
+      "keywords": [
+        "C++",
+        "C++开发",
+        "cpp 代码",
+        "C 语言"
+      ],
+      "skills": [
+        "cpp-coder",
+        "performance-optimizer"
+      ],
+      "tools": [
+        "exec",
+        "write"
+      ],
+      "subtasks": [
+        "understand",
+        "design",
+        "implement",
+        "optimize"
+      ],
+      "description": "C++ 代码开发",
+      "phase": "理解→设计→实现→优化",
+      "qualityGates": [
+        "功能正确",
+        "性能优异",
+        "内存安全"
+      ]
+    },
+    "web_development": {
+      "keywords": [
+        "网站",
+        "网站开发",
+        "网页制作",
+        "建站"
+      ],
+      "skills": [
+        "web-developer",
+        "frontend-backend-integrator"
+      ],
+      "tools": [
+        "exec",
+        "write"
+      ],
+      "subtasks": [
+        "requirements",
+        "design",
+        "frontend",
+        "backend",
+        "deploy"
+      ],
+      "description": "网站开发",
+      "phase": "需求→设计→前端→后端→部署",
+      "qualityGates": [
+        "功能完整",
+        "体验良好",
+        "性能稳定"
+      ]
+    },
+    "app_development": {
+      "keywords": [
+        "APP",
+        "应用开发",
+        "移动应用",
+        "小程序"
+      ],
+      "skills": [
+        "app-developer",
+        "mobile-ux-expert"
+      ],
+      "tools": [
+        "exec",
+        "write"
+      ],
+      "subtasks": [
+        "requirements",
+        "design",
+        "develop",
+        "test",
+        "publish"
+      ],
+      "description": "APP 开发",
+      "phase": "需求→设计→开发→测试→发布",
+      "qualityGates": [
+        "功能完整",
+        "体验流畅",
+        "无重大 bug"
+      ]
+    },
+    "logo_design": {
+      "keywords": [
+        "logo",
+        "标志设计",
+        "商标设计",
+        "品牌标识"
+      ],
+      "skills": [
+        "logo-designer",
+        "brand-visualizer"
+      ],
+      "tools": [
+        "imagegen",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "understand_brand",
+        "concept",
+        "design",
+        "refine"
+      ],
+      "description": "Logo 设计",
+      "phase": "理解品牌→构思→设计→完善",
+      "qualityGates": [
+        "识别度高",
+        "简洁",
+        "符合品牌"
+      ]
+    },
+    "poster_design": {
+      "keywords": [
+        "海报",
+        "海报设计",
+        "宣传海报",
+        "活动海报"
+      ],
+      "skills": [
+        "poster-designer",
+        "visual-communicator"
+      ],
+      "tools": [
+        "imagegen",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "understand_purpose",
+        "layout",
+        "design",
+        "finalize"
+      ],
+      "description": "海报设计",
+      "phase": "理解目的→排版→设计→定稿",
+      "qualityGates": [
+        "信息清晰",
+        "视觉冲击",
+        "主题突出"
+      ]
+    },
+    "infographic_creation": {
+      "keywords": [
+        "信息图",
+        "信息图表",
+        "数据图",
+        "可视化图表"
+      ],
+      "skills": [
+        "infographic-designer",
+        "data-visualizer"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "imagegen"
+      ],
+      "subtasks": [
+        "extract_data",
+        "choose_format",
+        "design",
+        "refine"
+      ],
+      "description": "信息图设计",
+      "phase": "提取数据→选择格式→设计→完善",
+      "qualityGates": [
+        "信息准确",
+        "视觉清晰",
+        "易于理解"
+      ]
+    },
+    "color_scheme": {
+      "keywords": [
+        "配色",
+        "配色方案",
+        "色彩搭配",
+        "颜色方案"
+      ],
+      "skills": [
+        "color-theorist",
+        "harmony-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "imagegen"
+      ],
+      "subtasks": [
+        "understand_mood",
+        "choose_palette",
+        "test",
+        "finalize"
+      ],
+      "description": "配色方案",
+      "phase": "理解情绪→选择色板→测试→定稿",
+      "qualityGates": [
+        "和谐",
+        "符合主题",
+        "实用"
+      ]
+    },
+    "layout_design": {
+      "keywords": [
+        "版式",
+        "版式设计",
+        "排版",
+        "布局设计"
+      ],
+      "skills": [
+        "layout-designer",
+        "composition-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "imagegen"
+      ],
+      "subtasks": [
+        "understand_content",
+        "grid",
+        "arrange",
+        "refine"
+      ],
+      "description": "版式设计",
+      "phase": "理解内容→网格→排列→完善",
+      "qualityGates": [
+        "层次清晰",
+        "阅读流畅",
+        "美观"
+      ]
+    },
+    "podcast_production": {
+      "keywords": [
+        "播客",
+        "播客制作",
+        "音频节目",
+        "播客录制"
+      ],
+      "skills": [
+        "podcast-producer",
+        "audio-editor"
+      ],
+      "tools": [
+        "exec",
+        "audio_processing"
+      ],
+      "subtasks": [
+        "plan_episode",
+        "record",
+        "edit",
+        "publish"
+      ],
+      "description": "播客制作",
+      "phase": "策划→录制→编辑→发布",
+      "qualityGates": [
+        "内容优质",
+        "音质清晰",
+        "节奏好"
+      ]
+    },
+    "subtitle_creation": {
+      "keywords": [
+        "字幕",
+        "加字幕",
+        "字幕制作",
+        "字幕生成"
+      ],
+      "skills": [
+        "subtitle-generator",
+        "transcriber"
+      ],
+      "tools": [
+        "exec",
+        "video-frames"
+      ],
+      "subtasks": [
+        "transcribe",
+        "time",
+        "sync",
+        "export"
+      ],
+      "description": "字幕制作",
+      "phase": "听写→时间轴→同步→导出",
+      "qualityGates": [
+        "准确",
+        "同步",
+        "格式正确"
+      ]
+    },
+    "vlog_planning": {
+      "keywords": [
+        "Vlog",
+        "视频日志",
+        "日常视频",
+        "vlog 策划"
+      ],
+      "skills": [
+        "vlog-planner",
+        "storyteller"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "video_editing"
+      ],
+      "subtasks": [
+        "theme",
+        "shot_list",
+        "shoot",
+        "edit"
+      ],
+      "description": "Vlog 策划",
+      "phase": "主题→拍摄清单→拍摄→剪辑",
+      "qualityGates": [
+        "主题明确",
+        "内容丰富",
+        "有吸引力"
+      ]
+    },
+    "social_media_content": {
+      "keywords": [
+        "社交媒体",
+        "内容创作",
+        "推文",
+        "朋友圈",
+        "微博"
+      ],
+      "skills": [
+        "content-creator",
+        "engagement-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "write"
+      ],
+      "subtasks": [
+        "understand_platform",
+        "create",
+        "optimize",
+        "schedule"
+      ],
+      "description": "社交媒体内容",
+      "phase": "理解平台→创作→优化→发布",
+      "qualityGates": [
+        "符合平台",
+        "有吸引力",
+        "易传播"
+      ]
+    },
+    "live_streaming_plan": {
+      "keywords": [
+        "直播",
+        "直播策划",
+        "直播计划",
+        "带货直播"
+      ],
+      "skills": [
+        "live-stream-planner",
+        "engagement-designer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "theme",
+        "script",
+        "interaction",
+        "review"
+      ],
+      "description": "直播策划",
+      "phase": "主题→脚本→互动→回顾",
+      "qualityGates": [
+        "流程清晰",
+        "互动性强",
+        "目标达成"
+      ]
+    },
+    "media_strategy": {
+      "keywords": [
+        "媒体策略",
+        "媒体计划",
+        "传播策略"
+      ],
+      "skills": [
+        "media-strategist",
+        "channel-optimizer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "understand_audience",
+        "choose_channels",
+        "plan",
+        "measure"
+      ],
+      "description": "媒体策略",
+      "phase": "理解受众→选择渠道→计划→衡量",
+      "qualityGates": [
+        "渠道匹配",
+        "资源优化",
+        "效果可衡量"
+      ]
+    },
+    "contract_review": {
+      "keywords": [
+        "合同",
+        "合同审查",
+        "审合同",
+        "合同审核"
+      ],
+      "skills": [
+        "contract-reviewer",
+        "risk-identifier"
+      ],
+      "tools": [
+        "read",
+        "feishu_doc_comments"
+      ],
+      "subtasks": [
+        "read_terms",
+        "identify_risks",
+        "suggest_changes",
+        "negotiate"
+      ],
+      "description": "合同审查",
+      "phase": "阅读条款→识别风险→建议修改→协商",
+      "qualityGates": [
+        "风险识别",
+        "条款公平",
+        "合法合规"
+      ]
+    },
+    "patent_application": {
+      "keywords": [
+        "专利",
+        "专利申请",
+        "申请专利"
+      ],
+      "skills": [
+        "patent-writer",
+        "prior-art-searcher"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "exec"
+      ],
+      "subtasks": [
+        "search_prior",
+        "draft_claims",
+        "file",
+        "follow_up"
+      ],
+      "description": "专利申请",
+      "phase": "检索现有技术→撰写权利要求→提交→跟进",
+      "qualityGates": [
+        "新颖性",
+        "创造性",
+        "权利要求清晰"
+      ]
+    },
+    "trademark_registration": {
+      "keywords": [
+        "商标",
+        "商标注册",
+        "注册商标"
+      ],
+      "skills": [
+        "trademark-registrar",
+        "conflict-checker"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "exec"
+      ],
+      "subtasks": [
+        "search_conflicts",
+        "prepare_application",
+        "file",
+        "monitor"
+      ],
+      "description": "商标注册",
+      "phase": "检索冲突→准备申请→提交→监控",
+      "qualityGates": [
+        "无冲突",
+        "分类正确",
+        "材料完整"
+      ]
+    },
+    "visa_application": {
+      "keywords": [
+        "签证",
+        "签证申请",
+        "办签证"
+      ],
+      "skills": [
+        "visa-advisor",
+        "document-checker"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "check_requirements",
+        "prepare_documents",
+        "apply",
+        "track"
+      ],
+      "description": "签证申请",
+      "phase": "查看要求→准备材料→申请→追踪",
+      "qualityGates": [
+        "材料齐全",
+        "信息准确",
+        "及时提交"
+      ]
+    },
+    "immigration_consult": {
+      "keywords": [
+        "移民",
+        "移民咨询",
+        "移民规划"
+      ],
+      "skills": [
+        "immigration-advisor",
+        "pathway-analyzer"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "assess_eligibility",
+        "compare_pathways",
+        "plan",
+        "execute"
+      ],
+      "description": "移民咨询",
+      "phase": "评估资格→比较途径→规划→执行",
+      "qualityGates": [
+        "途径适合",
+        "条件满足",
+        "风险可控"
+      ]
+    },
+    "psychological_counseling": {
+      "keywords": [
+        "心理",
+        "心理咨询",
+        "心理疏导",
+        "情绪问题"
+      ],
+      "skills": [
+        "counseling-simulator",
+        "active-listener"
+      ],
+      "tools": [
+        "read",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "listen",
+        "empathize",
+        "explore",
+        "suggest"
+      ],
+      "description": "心理咨询",
+      "phase": "倾听→共情→探索→建议",
+      "qualityGates": [
+        "非评判",
+        "支持性",
+        "引导自我发现"
+      ]
+    },
+    "mediation_service": {
+      "keywords": [
+        "调解",
+        "调解服务",
+        "纠纷调解"
+      ],
+      "skills": [
+        "mediator",
+        "conflict-resolver"
+      ],
+      "tools": [
+        "read",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "understand_parties",
+        "identify_issues",
+        "facilitate",
+        "agreement"
+      ],
+      "description": "调解服务",
+      "phase": "理解各方→识别问题→促进→协议",
+      "qualityGates": [
+        "公正",
+        "促进理解",
+        "达成共识"
+      ]
+    },
+    "notary_service": {
+      "keywords": [
+        "公证",
+        "公证服务",
+        "办理公证"
+      ],
+      "skills": [
+        "notary-guide",
+        "document-verifier"
+      ],
+      "tools": [
+        "read",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "verify_identity",
+        "witness",
+        "certify",
+        "record"
+      ],
+      "description": "公证服务",
+      "phase": "验证身份→见证→认证→记录",
+      "qualityGates": [
+        "身份真实",
+        "程序合法",
+        "记录完整"
+      ]
+    },
+    "experiment_design": {
+      "keywords": [
+        "实验",
+        "实验设计",
+        "设计实验"
+      ],
+      "skills": [
+        "experiment-designer",
+        "control-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "hypothesis",
+        "variables",
+        "procedure",
+        "analyze"
+      ],
+      "description": "实验设计",
+      "phase": "假设→变量→程序→分析",
+      "qualityGates": [
+        "假设清晰",
+        "变量控制",
+        "可重复"
+      ]
+    },
+    "statistical_analysis": {
+      "keywords": [
+        "统计",
+        "统计分析",
+        "统计学",
+        "数据统计分析"
+      ],
+      "skills": [
+        "statistician",
+        "data-interpreter"
+      ],
+      "tools": [
+        "feishu_sheet",
+        "exec"
+      ],
+      "subtasks": [
+        "choose_test",
+        "run_analysis",
+        "interpret",
+        "report"
+      ],
+      "description": "统计分析",
+      "phase": "选择检验→运行分析→解释→报告",
+      "qualityGates": [
+        "方法适当",
+        "结果准确",
+        "解释合理"
+      ]
+    },
+    "paper_submission": {
+      "keywords": [
+        "投稿",
+        "论文投稿",
+        "发表",
+        "期刊投稿"
+      ],
+      "skills": [
+        "submission-advisor",
+        "journal-finder"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "exec"
+      ],
+      "subtasks": [
+        "select_journal",
+        "format",
+        "submit",
+        "respond"
+      ],
+      "description": "论文投稿",
+      "phase": "选择期刊→格式化→提交→回复",
+      "qualityGates": [
+        "期刊匹配",
+        "格式规范",
+        "回复及时"
+      ]
+    },
+    "peer_review": {
+      "keywords": [
+        "同行评审",
+        "审稿",
+        "评审意见"
+      ],
+      "skills": [
+        "peer-reviewer",
+        "constructive-critic"
+      ],
+      "tools": [
+        "read",
+        "feishu_doc_comments"
+      ],
+      "subtasks": [
+        "understand",
+        "evaluate",
+        "comment",
+        "recommend"
+      ],
+      "description": "同行评审",
+      "phase": "理解→评估→评论→建议",
+      "qualityGates": [
+        "公正",
+        "建设性",
+        "专业"
+      ]
+    },
+    "academic_ethics": {
+      "keywords": [
+        "学术伦理",
+        "学术道德",
+        "学术规范"
+      ],
+      "skills": [
+        "ethics-advisor",
+        "compliance-checker"
+      ],
+      "tools": [
+        "read",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "identify_issues",
+        "check_guidelines",
+        "advise",
+        "prevent"
+      ],
+      "description": "学术伦理",
+      "phase": "识别问题→查看规范→建议→预防",
+      "qualityGates": [
+        "符合规范",
+        "避免不当",
+        "促进诚信"
+      ]
+    },
+    "conference_organization": {
+      "keywords": [
+        "会议组织",
+        "组织会议",
+        "大型会议",
+        "学术会议"
+      ],
+      "skills": [
+        "conference-organizer",
+        "logistics-manager"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_task_task"
+      ],
+      "subtasks": [
+        "plan",
+        "invite",
+        "coordinate",
+        "execute"
+      ],
+      "description": "会议组织",
+      "phase": "计划→邀请→协调→执行",
+      "qualityGates": [
+        "流程顺畅",
+        "参会者满意",
+        "目标达成"
+      ]
+    },
+    "exhibition_planning": {
+      "keywords": [
+        "展览",
+        "展览策划",
+        "展会",
+        "展览计划"
+      ],
+      "skills": [
+        "exhibition-planner",
+        "curator"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_task_task"
+      ],
+      "subtasks": [
+        "theme",
+        "select_items",
+        "layout",
+        "execute"
+      ],
+      "description": "展览策划",
+      "phase": "主题→选择展品→布局→执行",
+      "qualityGates": [
+        "主题鲜明",
+        "展品精当",
+        "体验好"
+      ]
+    },
+    "wedding_planning": {
+      "keywords": [
+        "婚礼",
+        "婚礼策划",
+        "筹备婚礼",
+        "结婚"
+      ],
+      "skills": [
+        "wedding-planner",
+        "detail-coordinator"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_task_task"
+      ],
+      "subtasks": [
+        "budget",
+        "guest_list",
+        "venue",
+        "coordinate"
+      ],
+      "description": "婚礼策划",
+      "phase": "预算→宾客名单→场地→协调",
+      "qualityGates": [
+        "符合预期",
+        "流程顺利",
+        "难忘"
+      ]
+    },
+    "party_planning": {
+      "keywords": [
+        "派对",
+        "派对策划",
+        "聚会策划",
+        "生日派对"
+      ],
+      "skills": [
+        "party-planner",
+        "fun-creator"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_task_task"
+      ],
+      "subtasks": [
+        "theme",
+        "guest_list",
+        "plan",
+        "execute"
+      ],
+      "description": "派对策划",
+      "phase": "主题→宾客名单→计划→执行",
+      "qualityGates": [
+        "气氛好",
+        "流程顺",
+        "大家开心"
+      ]
+    },
+    "team_building": {
+      "keywords": [
+        "团建",
+        "团队建设",
+        "team building",
+        "集体活动"
+      ],
+      "skills": [
+        "team-building-facilitator",
+        "morale-booster"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "feishu_task_task"
+      ],
+      "subtasks": [
+        "assess_team",
+        "choose_activity",
+        "plan",
+        "debrief"
+      ],
+      "description": "团建活动",
+      "phase": "评估团队→选择活动→计划→总结",
+      "qualityGates": [
+        "增强凝聚力",
+        "放松身心",
+        "有收获"
+      ]
+    },
+    "task_planning": {
+      "keywords": [
+        "任务",
+        "任务规划",
+        "任务管理",
+        "待办事项"
+      ],
+      "skills": [
+        "task-planner",
+        "priority-setter"
+      ],
+      "tools": [
+        "feishu_task_task",
+        "feishu_bitable"
+      ],
+      "subtasks": [
+        "capture",
+        "categorize",
+        "prioritize",
+        "schedule"
+      ],
+      "description": "任务规划",
+      "phase": "记录→分类→优先级→安排",
+      "qualityGates": [
+        "不遗漏",
+        "优先级清晰",
+        "可执行"
+      ]
+    },
+    "email_management": {
+      "keywords": [
+        "邮件",
+        "邮件管理",
+        "处理邮件",
+        "邮箱整理"
+      ],
+      "skills": [
+        "email-organizer",
+        "inbox-zero-expert"
+      ],
+      "tools": [
+        "feishu_create_doc",
+        "read"
+      ],
+      "subtasks": [
+        "process",
+        "organize",
+        "respond",
+        "archive"
+      ],
+      "description": "邮件管理",
+      "phase": "处理→整理→回复→归档",
+      "qualityGates": [
+        "inbox 清空",
+        "重要邮件处理",
+        "归档有序"
+      ]
+    },
+    "file_organization": {
+      "keywords": [
+        "文件",
+        "文件整理",
+        "文件管理",
+        "资料整理"
+      ],
+      "skills": [
+        "file-organizer",
+        "naming-expert"
+      ],
+      "tools": [
+        "exec",
+        "read"
+      ],
+      "subtasks": [
+        "collect",
+        "categorize",
+        "name",
+        "store"
+      ],
+      "description": "文件整理",
+      "phase": "收集→分类→命名→存储",
+      "qualityGates": [
+        "分类清晰",
+        "命名规范",
+        "易查找"
+      ]
+    },
+    "mindfulness_meditation": {
+      "keywords": [
+        "冥想",
+        "正念",
+        "静心",
+        "放松",
+        "减压",
+        "心理调节",
+        "情绪管理",
+        "心理健康",
+        "冥想练习",
+        "冥想静心",
+        "静坐",
+        "打坐",
+        "禅修"
+      ],
+      "skills": [
+        "meditation-guide",
+        "breathing-coach",
+        "stress-manager"
+      ],
+      "tools": [
+        "tts",
+        "feishu_create_doc"
+      ],
+      "subtasks": [
+        "assess_state",
+        "guide_practice",
+        "provide_tips"
+      ],
+      "description": "冥想与正念"
+    }
+  },
+  "confidenceThreshold": 0.5
+}
